@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         AWS_DEFAULT_REGION = 'il-central-1'
-        FUNCTION_NAME = 'your-lambda-function-name'
+        FUNCTION_NAME = 'imtech-dor-from-gh'
         LAMBDA_CODE_DIR = 'lambda-code'
     }
 
