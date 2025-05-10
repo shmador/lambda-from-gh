@@ -4,7 +4,7 @@ pipeline {
     environment {
         AWS_DEFAULT_REGION = 'il-central-1'
         FUNCTION_NAME = 'imtech-dor-from-gh'
-        LAMBDA_CODE_DIR = 'lambda-code/lambda_function.py'
+        LAMBDA_CODE_DIR = 'lambda-code'
     }
 
     stages {
