@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Zip Lambda Code') {
             steps {
-                sh "zip -r lambda.zip $LAMBDA_CODE_DIR"
+                sh "zip -r lambda.zip ${LAMBDA_CODE_DIR}"
             }
         }
 
