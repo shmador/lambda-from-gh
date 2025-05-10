@@ -18,7 +18,7 @@ pipeline {
             steps {
                 withCredentials([[
                     $class: 'AmazonWebServicesCredentialsBinding',
-                    credentialsId: 'aws-credentials-id'
+                    credentialsId: 'aws-cred'
                 ]]) {
                     sh '''
                         aws lambda update-function-code \
