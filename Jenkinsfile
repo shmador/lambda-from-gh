@@ -11,7 +11,7 @@ pipeline {
         stage('Zip Lambda Code') {
             steps {
                  sh '''
-                    vrm -f lambda.zip
+                    rm -f lambda.zip
                     cd lambda-code
                     zip -r ../lambda.zip .
                 '''
