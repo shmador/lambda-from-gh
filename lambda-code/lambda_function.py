@@ -10,3 +10,5 @@ def lambda_handler(event, context):
     print("value3 = " + event['key3'])
     return event['key1']  # Echo back the first key value
     #raise Exception('Something went wrong')
+
+    #This is a massage from github
